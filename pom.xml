@@ -16,8 +16,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
   <build>
-    <finalName>luminous_app</finalName>
+    <finalName>01-maven-web-app</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
